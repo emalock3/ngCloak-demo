@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.emalock3</groupId>
+  <artifactId>ng-cloak-demo</artifactId>
+  <packaging>pom</packaging>
+  <version>0.1</version>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.jetty</groupId>
+        <artifactId>jetty-maven-plugin</artifactId>
+        <version>9.0.5.v20130815</version>
+        <configuration>
+          <webAppSourceDirectory>app</webAppSourceDirectory>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>

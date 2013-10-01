@@ -1,0 +1,9 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+.content {
+  background-color: lightgray;
+  border: solid 1px red;
+  height: 100px;
+}
