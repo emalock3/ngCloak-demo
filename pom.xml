@@ -13,6 +13,9 @@
         <version>9.0.5.v20130815</version>
         <configuration>
           <webAppSourceDirectory>app</webAppSourceDirectory>
+          <webAppConfig>
+            <defaultsDescriptor>webdefault.xml</defaultsDescriptor>
+          </webAppConfig>
         </configuration>
       </plugin>
     </plugins>
